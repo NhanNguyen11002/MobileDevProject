@@ -18,7 +18,7 @@ import com.example.nike_store.model.NewRelease;
 import java.util.List;
 
 public class NewReleaseRecyclerAdapter extends RecyclerView.Adapter<NewReleaseRecyclerAdapter.NewReleaseViewHolder> {
-    private Context context;
+        private Context context;
     private List<NewRelease> newReleaseList;
 
     public NewReleaseRecyclerAdapter(Context context, List<NewRelease> newReleaseList) {
